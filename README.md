@@ -2,6 +2,8 @@
 
 An object recognition system for drone images combining **YOLOv11** for detection and **Optimal Transport theory** for classification. The model recognizes 6 classes: people, bike, vehicle, truck, bus, and motorcycle.
 
+(For detailed theoretical background and implementation details, see the [Research Report](./Report.pdf).)
+
 ## 1. Architecture
 
 **Pipeline**: Drone Image → YOLOv11 → Feature Extraction → Optimal Transport Distance → KNN Classifier
